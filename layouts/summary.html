@@ -11,9 +11,12 @@
       <h1 class="f3 near-black mt2 mb3">
           {{ .Title }}
       </h1>
-      <div class="f5 lh-copy near-gray" style="height: 4.5rem; overflow: hidden;">
+      <div class="f5 lh-copy near-gray mb3" style="height: 4.5rem; overflow: hidden;">
         {{ .Description | default .Summary | truncate 150 }}
       </div>
+      <span class="blue fw6 db tr">
+        Read Project &rarr;
+      </span>
     </div>
   </a>
 </div>
