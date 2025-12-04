@@ -2,3 +2,16 @@ baseURL = 'https://example.org/' # This will be overridden by GitHub Actions
 languageCode = 'en-us'
 title = 'My Portfolio Site'
 theme = 'ananke'
+
+[menu]
+  [[menu.main]]
+    identifier = "documentation"
+    name = "Documentation"
+    url = "/documentation/giftlist-api/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 20
