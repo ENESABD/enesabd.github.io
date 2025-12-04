@@ -2,6 +2,8 @@
 title: "Docker & GitHub Actions Automation"
 date: 2025-12-03T12:00:00-05:00
 draft: false
+featured_image: "/images/docker-setup-1.png"
+description: "Containerizing the Laravel application with Docker and automating deployment to GitHub Pages using GitHub Actions."
 ---
 
 ## Project Overview

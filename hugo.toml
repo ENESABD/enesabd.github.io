@@ -5,6 +5,8 @@ theme = 'ananke'
 
 [params]
   recent_posts_number = 0
+  [params.ananke]
+    show_recent_posts = false
 
 [menu]
   [[menu.main]]

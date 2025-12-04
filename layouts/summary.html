@@ -1,0 +1,24 @@
+<div class="w-100 mb4 nested-copy-line-height relative bg-white shadow-4 grow">
+  {{ if .Params.featured_image }}
+  <div class="overflow-hidden" style="height: 200px;">
+      <a href="{{ .RelPermalink }}" class="db">
+        <img src="{{ .Params.featured_image }}" class="w-100 h-100 object-cover" alt="{{ .Title }}">
+      </a>
+  </div>
+  {{ end }}
+  
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    {{with .CurrentSection.Title }}<span class="f6 db ttu tracked">{{ . }}</span>{{end}}
+    <h1 class="f3 near-black mt2 mb3">
+      <a href="{{ .RelPermalink }}" class="link black dim">
+        {{ .Title }}
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height mb3" style="height: 80px; overflow: hidden;">
+      {{ .Description | default .Summary | truncate 120 }}
+    </div>
+    <a href="{{.RelPermalink}}" class="ba b--black-20 bg-blue white br2 dib f6 fw6 hover-bg-dark-blue link mt2 ph3 pv2 w-100 tc">
+      {{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }} &rarr;
+    </a>
+  </div>
+</div>

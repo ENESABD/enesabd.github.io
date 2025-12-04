@@ -2,6 +2,8 @@
 title: "Documentation with Hugo"
 date: 2025-12-03T12:00:00-05:00
 draft: false
+featured_image: "/images/hugo-docs-overview.png"
+description: "Transforming Marp documentation into a professional static site using Hugo, hosted on GitHub Pages."
 ---
 
 ## Project Overview

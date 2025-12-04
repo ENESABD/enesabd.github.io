@@ -2,6 +2,8 @@
 title: "Laravel REST API Implementation"
 date: 2025-12-03T12:00:00-05:00
 draft: false
+featured_image: "/images/laravel-shell-script.png"
+description: "A complete re-implementation of the GiftList API using Laravel, featuring MVC architecture, Eloquent ORM, and Sanctum authentication."
 ---
 
 ## Project Overview
