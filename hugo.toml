@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/' # This will be overridden by GitHub Actions
+languageCode = 'en-us'
+title = 'My Portfolio Site'
+theme = 'ananke'
