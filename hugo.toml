@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'My Portfolio Site'
 theme = 'ananke'
 
+[params]
+  recent_posts_number = 0
+
 [menu]
   [[menu.main]]
     identifier = "documentation"
