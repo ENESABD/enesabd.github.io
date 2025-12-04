@@ -6,18 +6,34 @@ draft: false
 
 ## Project Overview
 
-This website itself is a project demonstrating the use of **Hugo**, a fast static site generator.
+This website itself is a project demonstrating the use of **Hugo**, a fast static site generator, to create a professional portfolio and documentation site.
 
-### Transformation from Marp
+### Site Structure
 
-The original documentation was created using Marp (Markdown Presentation Ecosystem). I transformed the content into a structured Hugo site.
+The site is organized into two main sections: **Documentation** and **Portfolio**.
 
--   **Content Management**: Split the single markdown file into multiple modular content files.
--   **Theme**: Used the **Ananke** theme for a professional look.
--   **Deployment**: The site is automatically built and deployed to GitHub Pages using GitHub Actions.
+#### Documentation Section
 
-### Deployment Result
+The API documentation was migrated from Marp to Hugo, featuring a clean and navigable layout.
 
-![GitHub Pages Deployment](/images/github-pages.png)
+![Documentation Overview](/images/hugo-docs-overview.png)
 
-You are currently viewing the result of this project!
+Each module, such as Authentication, has its own dedicated page with detailed endpoint descriptions.
+
+![Documentation Module](/images/hugo-docs-module.png)
+
+### Deployment to GitHub Pages
+
+The site is hosted on **GitHub Pages**. The deployment is handled automatically by GitHub Actions.
+
+#### Settings
+
+In the repository settings, GitHub Pages is configured to serve the content from the `gh-pages` branch (or via the Actions workflow).
+
+![GitHub Pages Settings](/images/github-pages-settings.png)
+
+#### Live Site
+
+The final result is a publicly accessible website available at the configured domain.
+
+![Live Site](/images/github-pages-live.png)
