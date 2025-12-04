@@ -8,7 +8,7 @@ draft: false
 
 This website serves as a comprehensive showcase of my work for the **CSC 640** course. It is divided into two main sections:
 
-*   **Documentation**: Detailed API references and guides for the GiftList project.
-*   **Portfolio**: A collection of my technical projects, including Backend Development, DevOps Automation, and Static Site Generation.
+- **Documentation**: Detailed API references and guides for the GiftList project.
+- **Portfolio**: A collection of my technical projects, including Backend Development, DevOps Automation, and Static Site Generation.
 
 Please **navigate using the menu at the top** to explore the different sections.
